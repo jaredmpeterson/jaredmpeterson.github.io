@@ -1,0 +1,15 @@
+:root {
+  --pink: #EE445F;
+  --blue: #1B2C35;
+  --light: #A3BFC6;
+  --dark: #222A30;
+  --med: #293A42;
+  --sans: 'Rubik', sans-serif;
+  --serif: 'Trirong', serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--sans);
+}
