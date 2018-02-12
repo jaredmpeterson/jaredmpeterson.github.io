@@ -11,14 +11,13 @@ class App extends Component {
           <h2 className="Title">jaredmpeterson.github.io</h2>
         </header>
         <div className="About">
-
           <article className="Bio">
             <h4>jmp</h4>
             <h1>Hello.</h1>
             <div id="bio-copy">
-              <p>My name is Jared. </p>
-              <p>I created my first website using iWeb on my 12" iBook in 2004. I love web design and development and have been able to make a career out of it.</p>
-              <p>I also like to play basketball whenever possible, run, play softball on Thursday nights, and travel with my wife and am looking forward to our first child due March 2018.</p>
+              <p>My name is Jared.</p>
+              <p>I created my first website using iWeb on my 12" iBook in 2005. I love web design and development and have been able to make a career out of it.</p>
+              <p>I like to play basketball whenever possible, run, play softball on Thursday nights, and travel with my wife and am looking forward to the birth of our first child due March 2018.</p>
               <p><a href="mailto:developer@peteyinc.com">Email</a> / <a href="https://www.linkedin.com/in/thejaredpeterson" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
             </div>
           </article>
