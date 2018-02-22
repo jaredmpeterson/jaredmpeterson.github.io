@@ -65,7 +65,7 @@
 .About .Quote span {
   color: var(--pink);
   font-family: var(--sans);
-  font-weight: 400;
+  font-weight: 200;
   font-style: normal;
   align-self: flex-end;
   position: relative;
