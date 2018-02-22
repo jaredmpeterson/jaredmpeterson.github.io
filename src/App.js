@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import logo from './jmp_logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import logo from "./jmp_logo.svg";
+import "./App.css";
 
 class App extends Component {
   render() {
@@ -16,13 +16,44 @@ class App extends Component {
             <h1>Hello.</h1>
             <div id="bio-copy">
               <p>My name is Jared.</p>
-              <p>I created my first website using iWeb on my 12" iBook in 2005. I love web design and development and have been able to make a career out of it.</p>
-              <p>I like to play basketball whenever possible, run, play softball on Thursday nights, and travel with my wife and am looking forward to the birth of our first child due March 2018.</p>
-              <p><a href="mailto:developer@peteyinc.com">Email</a> / <a href="https://www.linkedin.com/in/thejaredpeterson" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+              <p>
+                I am a web developer. I published my first website online using
+                iWeb on my white 12" iBook G4 in 2006. I love design and
+                development and have been able to make a career out of it even
+                if it took me some time to figure out this is what I wanted to
+                do.
+              </p>
+              <div className="Quote">
+                <p>
+                  Your work is going to fill a large part of your life, and the
+                  only way to be truly satisfied is to do what you believe is
+                  great work. And the only way to do great work is to love what
+                  you do. If you haven't found it yet, keep looking. Don't
+                  settle. As with all matters of the heart, you'll know when you
+                  find it.
+                </p>
+                <span>Steve Jobs</span>
+              </div>
+              <p>
+                I like playing card and board games, running, playing softball
+                on Thursday nights, playing basketball whenever possible, and
+                traveling with my wife. We are looking forward to the birth of
+                our first child due March 21st 2018.
+              </p>
+              <p>
+                <a href="mailto:developer@peteyinc.com">Email</a> /{" "}
+                <a
+                  href="https://www.linkedin.com/in/thejaredpeterson"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LinkedIn
+                </a>
+              </p>
             </div>
           </article>
           <article id="recognition">
-            <h4>const me</h4>
+            <h4>const me =</h4>
             <div id="recognition-lists" className="cf">
               <ul>
                 <li data-cnt="01">Core</li>
@@ -33,7 +64,9 @@ class App extends Component {
                 <li>—Data</li>
               </ul>
               <ul>
-                <li data-cnt="02">JavaScript <sup>ES6</sup></li>
+                <li data-cnt="02">
+                  JavaScript <sup>ES6</sup>
+                </li>
                 <li>—Angular</li>
                 <li>—React</li>
                 <li>—Express</li>
@@ -41,7 +74,9 @@ class App extends Component {
                 <li>-Gulp/Grunt</li>
               </ul>
               <ul>
-                <li data-cnt="03">Python <sup>3</sup></li>
+                <li data-cnt="03">
+                  Python <sup>3</sup>
+                </li>
                 <li>—Pandas</li>
                 <li>—Numpy</li>
                 <li>—Prophet</li>
