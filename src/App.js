@@ -41,7 +41,7 @@ class App extends Component {
                 our first child due March 21st 2018.
               </p>
               <p>
-                <a href="mailto:developer@peteyinc.com">Email</a> /{" "}
+                <a href="mailto:jared@peteyinc.com">Email</a> /{" "}
                 <a
                   href="https://www.linkedin.com/in/thejaredpeterson"
                   target="_blank"
@@ -57,39 +57,62 @@ class App extends Component {
             <div id="recognition-lists" className="cf">
               <ul>
                 <li data-cnt="01">Core</li>
-                <li>—Design</li>
-                <li>—HTML5/CSS3</li>
-                <li>—JavaScript/ES6</li>
-                <li>—Python 3</li>
-                <li>—Data</li>
+                <li>— Design</li>
+                <li>— HTML5/CSS3</li>
+                <li>— JavaScript/ES6</li>
+                <li>— Python 3</li>
+                <li>— Data</li>
               </ul>
               <ul>
                 <li data-cnt="02">
                   JavaScript <sup>ES6</sup>
                 </li>
-                <li>—Angular</li>
-                <li>—React</li>
-                <li>—Express</li>
-                <li>—Node.js</li>
-                <li>-Gulp/Grunt</li>
+                <li>— Angular</li>
+                <li>— React</li>
+                <li>— Express</li>
+                <li>— Node.js</li>
+                <li>— Gulp/Grunt</li>
               </ul>
               <ul>
                 <li data-cnt="03">
                   Python <sup>3</sup>
                 </li>
-                <li>—Pandas</li>
-                <li>—Numpy</li>
-                <li>—Prophet</li>
-                <li>—TensorFlow</li>
-                <li>—Scikit-Learn</li>
+                <li>— Pandas</li>
+                <li>— Numpy</li>
+                <li>— Prophet</li>
+                <li>— TensorFlow</li>
+                <li>— Scikit-Learn</li>
               </ul>
               <ul>
                 <li data-cnt="04">Data</li>
-                <li>—PostgreSQL/MySQL</li>
-                <li>—MongoDB/NoSQL</li>
-                <li>—Excel/CSV</li>
-                <li>—Google Big Query</li>
-                <li>—PowerBI/Tableau</li>
+                <li>— PostgreSQL/MySQL</li>
+                <li>— MongoDB/NoSQL</li>
+                <li>— Excel/CSV</li>
+                <li>— Google Big Query</li>
+                <li>— PowerBI/Tableau</li>
+              </ul>
+              <ul>
+                <li data-cnt="05">Projects</li>
+                <li>
+                  —{" "}
+                  <a
+                    href="https://www.trackhymn.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Track Hymn
+                  </a>
+                </li>
+                <li>
+                  —{" "}
+                  <a
+                    href="https://www.peteyinc.net"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Petey Inc. Notes (PIN)
+                  </a>
+                </li>
               </ul>
             </div>
           </article>
