@@ -1,3 +1,18 @@
 .Me {
-  background-color: ghostwhite;
+  padding: 1rem;
+
+  h1 {
+    display: block;
+    font-weight: 300;
+    padding: 80px 0;
+    font-size: 36px;
+    font-size: calc(48px + 3vw);
+    letter-spacing: -2px;
+  }
+
+  p {
+    font-family: var(--atlas);
+    font-weight: 300;
+    margin-bottom: 28px;
+  }
 }
