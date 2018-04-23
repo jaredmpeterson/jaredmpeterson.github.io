@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
+import Logo from "./components/Logo/Logo";
 import "./App.css";
 
 class App extends Component {
@@ -7,7 +7,7 @@ class App extends Component {
     return (
       <div>
         <header>
-          <img src={logo} alt="logo" />
+          <Logo />
           <h1>Jared M. Peterson</h1>
         </header>
         <p>Welcome!</p>
