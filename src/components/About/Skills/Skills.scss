@@ -1,3 +1,25 @@
 .Skills {
-  background-color: floralwhite;
+  //   position: absolute;
+  //   top: 0;
+
+  .Lists {
+    display: flex;
+    flex-flow: row wrap;
+
+    ul {
+      min-width: 25%;
+      margin-bottom: 28px;
+
+      li:first-child {
+        color: var(--pink);
+      }
+
+      li {
+        color: #888;
+        font-size: 14px;
+        line-height: 28px;
+        list-style: none;
+      }
+    }
+  }
 }
