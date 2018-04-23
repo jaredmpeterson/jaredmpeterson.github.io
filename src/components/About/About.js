@@ -9,8 +9,8 @@ const about = props => (
   <div className="About">
     <Me />
     <Skills />
-    <Resume />
     <Projects />
+    <Resume />
   </div>
 );
 

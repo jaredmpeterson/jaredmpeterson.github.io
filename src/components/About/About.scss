@@ -3,15 +3,27 @@
   margin: 0 auto;
   background-color: white;
   height: 90vh;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  article {
+    // margin: 0 2em;
+    padding: 24px 0 0;
+    // min-width: 40%;
+    // max-width: 80%;
+    box-sizing: border-box;
+    position: relative;
+
+    h4:first-of-type {
+      position: absolute;
+      color: var(--pink);
+      right: 0;
+      top: 0;
+      font-size: 0.5rem;
+      font-family: var(--decima);
+    }
+  }
 
   p {
     font-family: "Atlas";
-  }
-
-  h4 {
-    // color: blue;
-    font-size: 2rem;
-    font-family: "Decima Mono Pro", Helvetica, sans-serif;
-    // font-weight: bold;
   }
 }
