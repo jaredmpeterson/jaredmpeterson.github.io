@@ -1,42 +1,46 @@
 import React from "react";
 import "./Skills.css";
+import Skillset from "./Skillset/Skillset";
 
 const skills = props => (
   <article className="Skills">
     <h4>skills</h4>
     <div className="Lists">
-      <ul>
-        <li data-cnt="01">Core</li>
-        <li>— HTML5/CSS3</li>
-        <li>— Web Design</li>
-        <li>— LESS/SASS</li>
-        <li>— Adobe Illustrator/Sketch</li>
-        <li>— Google Analytics</li>
-      </ul>
-      <ul>
-        <li data-cnt="02">JavaScript</li>
-        <li>— Angular</li>
-        <li>— React</li>
-        <li>— Express</li>
-        <li>— Node.js</li>
-        <li>— Gulp/Grunt</li>
-      </ul>
-      <ul>
-        <li data-cnt="03">Python</li>
-        <li>— Pandas</li>
-        <li>— Numpy</li>
-        <li>— Prophet</li>
-        <li>— TensorFlow</li>
-        <li>— Scikit-Learn</li>
-      </ul>
-      <ul>
-        <li data-cnt="04">Data</li>
-        <li>— PostgreSQL/MySQL</li>
-        <li>— MongoDB/NoSQL</li>
-        <li>— Excel/CSV</li>
-        <li>— Google Big Query</li>
-        <li>— PowerBI/Tableau</li>
-      </ul>
+      <Skillset
+        title="Core"
+        skills={[
+          "HTML5/CSS3",
+          "Web Design",
+          "LESS/SASS",
+          "Adobe Illustrator/Sketch",
+          "Google Analytics"
+        ]}
+      />
+      <Skillset
+        title="JavaScript"
+        skills={["Angular", "React", "Express", "Node", "Gulp/Grunt"]}
+      />
+      <Skillset
+        title="Python"
+        skills={[
+          "Pyramid",
+          "Pandas",
+          "Numpy",
+          "Prophet",
+          "TensorFlow",
+          "Scikit-Learn"
+        ]}
+      />
+      <Skillset
+        title="Data"
+        skills={[
+          "PostgreSQL/MySQL",
+          "MongoDB/NoSQL",
+          "Excel/CSV",
+          "Google Big Query",
+          "PowerBI/Tableau"
+        ]}
+      />
     </div>
   </article>
 );
