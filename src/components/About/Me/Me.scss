@@ -8,11 +8,13 @@
     font-size: 36px;
     font-size: calc(48px + 3vw);
     letter-spacing: -2px;
+    text-shadow: 0.1rem 0.1rem 0.25rem rgba(255, 192, 203, 0.5);
   }
 
   p {
     font-family: var(--atlas);
     font-weight: 300;
     margin-bottom: 28px;
+    line-height: 1.5rem;
   }
 }

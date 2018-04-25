@@ -18,7 +18,7 @@ const project = props => {
           <ul>{tags}</ul>
         </div>
       </div>
-      <div className="Preview">placeholder</div>
+      {/* <div className="Preview">placeholder</div> */}
     </div>
   );
 };

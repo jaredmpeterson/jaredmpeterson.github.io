@@ -7,16 +7,14 @@ const skills = props => (
     <div className="Lists">
       <ul>
         <li data-cnt="01">Core</li>
-        <li>— Design</li>
         <li>— HTML5/CSS3</li>
-        <li>— JavaScript/ES6</li>
-        <li>— Python 3</li>
-        <li>— Data</li>
+        <li>— Web Design</li>
+        <li>— LESS/SASS</li>
+        <li>— Adobe Illustrator/Sketch</li>
+        <li>— Google Analytics</li>
       </ul>
       <ul>
-        <li data-cnt="02">
-          JavaScript <sup>ES6</sup>
-        </li>
+        <li data-cnt="02">JavaScript</li>
         <li>— Angular</li>
         <li>— React</li>
         <li>— Express</li>
@@ -24,9 +22,7 @@ const skills = props => (
         <li>— Gulp/Grunt</li>
       </ul>
       <ul>
-        <li data-cnt="03">
-          Python <sup>3</sup>
-        </li>
+        <li data-cnt="03">Python</li>
         <li>— Pandas</li>
         <li>— Numpy</li>
         <li>— Prophet</li>

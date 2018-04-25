@@ -1,17 +1,22 @@
 .Skills {
-  //   position: absolute;
-  //   top: 0;
+  // display: flex;
 
   .Lists {
     display: flex;
+    width: 100%;
     flex-flow: row wrap;
+    justify-content: space-around;
 
     ul {
-      min-width: 25%;
+      flex: 3 1 auto;
+      min-width: 250px;
       margin-bottom: 28px;
 
       li:first-child {
         color: var(--pink);
+        font-size: 1.5em;
+        font-family: var(--atlas);
+        text-shadow: 0.1rem 0.1rem 0.25rem rgba(255, 192, 203, 0.5);
       }
 
       li {
