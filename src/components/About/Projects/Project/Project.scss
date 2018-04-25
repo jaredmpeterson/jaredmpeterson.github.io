@@ -5,7 +5,7 @@
   flex-flow: row wrap;
   height: 275px;
   align-items: center;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(60, 60, 60, 0.7);
   box-shadow: 0.1rem 0.1rem 0.25rem rgba(255, 192, 203, 0.5);
 
   .Info {
@@ -23,6 +23,33 @@
       font-weight: bold;
       margin: 0 auto;
     }
+
+    .btn-wrap {
+      display: flex;
+      width: 50%;
+      // background-color: deeppink;
+      justify-content: center;
+
+      a {
+        background: 0 0;
+        border: 1px solid rgba(60, 60, 60, 0.7);
+        transition: background-color 0.2s ease-in-out;
+        font: 16px/1.4 "Atlas", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        cursor: pointer;
+        padding: 10px;
+        display: inline-flex;
+        align-items: center;
+      }
+      a:hover {
+        background: #3c3c3c;
+        color: #fff;
+      }
+
+      a:nth-child(2) {
+        margin-left: 2rem;
+      }
+    }
+
     .Tags {
       display: flex;
       //   background-color: firebrick;

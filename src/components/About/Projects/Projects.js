@@ -8,7 +8,7 @@ const projects = props => (
     <h4>projects</h4>
     <Project
       title="Petey Inc. Notes"
-      tags={["aws", "react"]}
+      tags={["aws", "react", "sass"]}
       link="https://www.peteyinc.net"
     >
       PIN is a serveless app built on AWS.
@@ -17,6 +17,7 @@ const projects = props => (
       title="Track Hymn"
       tags={["python", "pyramid", "self hosted"]}
       link="https://www.trackhymn.com"
+      github="track_hymn"
     >
       Track Hymn is a data driven hobby project.
     </Project>
