@@ -1,0 +1,21 @@
+.Skillset {
+  flex: 3 1 content;
+  min-width: 250px;
+  margin-bottom: 28px;
+
+  .SkillTitle {
+    border-bottom: 1rem solid var(--pink);
+    color: var(--pink);
+    font-size: 1.5em;
+    font-family: var(--atlas);
+    text-shadow: 0.1rem 0.1rem 0.25rem rgba(255, 192, 203, 0.5);
+    padding-left: 0;
+  }
+
+  li {
+    padding-left: 1rem;
+    font-size: 14px;
+    line-height: 28px;
+    list-style: none;
+  }
+}
