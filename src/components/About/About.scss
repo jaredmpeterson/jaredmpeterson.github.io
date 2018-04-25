@@ -1,16 +1,14 @@
 .About {
+  display: flex;
+  flex-flow: column wrap;
   width: 90%;
-  margin: 0 auto;
-  background-color: white;
-  height: 90vh;
+  margin: auto;
+  padding-top: 6rem;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
   article {
-    // margin: 0 2em;
-    padding: 24px 0 0;
-    // min-width: 40%;
-    // max-width: 80%;
-    box-sizing: border-box;
+    margin: 0 2rem;
+    padding: 24px 0;
     position: relative;
 
     h4:first-of-type {
