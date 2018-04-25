@@ -1,0 +1,47 @@
+.Quote {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  align-content: center;
+  font-family: var(--atlas);
+  font-style: italic;
+  font-weight: 200;
+
+  line-height: calc(1rem + 1vh);
+  font-size: 1rem;
+
+  p {
+    display: inline-block;
+    margin: 5px;
+    padding: 0;
+    color: var(--blue);
+  }
+
+  p:before {
+    content: '"';
+    color: var(--pink);
+    font-size: 1rem;
+    position: relative;
+    left: -0.1rem;
+  }
+
+  p:after {
+    content: '"';
+    color: var(--pink);
+    font-size: 1rem;
+    position: absolute;
+  }
+
+  span {
+    color: var(--pink);
+    font-family: var(--decima);
+    font-weight: 200;
+    font-style: normal;
+    align-self: flex-end;
+    position: relative;
+    bottom: -0.2rem;
+    margin-bottom: 2rem;
+  }
+}
