@@ -5,6 +5,9 @@
 
   .SkillTitle {
     border-bottom: 0.75rem solid var(--pink);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-image: linear-gradient(to right, var(--pink), yellow);
     color: var(--pink);
     font-size: 1.5rem;
     font-family: var(--atlas);
