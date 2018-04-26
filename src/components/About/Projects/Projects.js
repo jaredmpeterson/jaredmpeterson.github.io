@@ -5,7 +5,7 @@ import Project from "./Project/Project";
 
 const projects = props => (
   <article className="Projects">
-    <h4>projects</h4>
+    <h4 id="projects">projects</h4>
     <Project
       title="Petey Inc. Notes"
       tags={["aws", "react", "sass", "react-bootstrap"]}

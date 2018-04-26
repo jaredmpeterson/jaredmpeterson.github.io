@@ -4,7 +4,7 @@ import Skillset from "./Skillset/Skillset";
 
 const skills = props => (
   <article className="Skills">
-    <h4>skills</h4>
+    <h4 id="skills">skills</h4>
     <div className="Lists">
       <Skillset
         title="Core"
