@@ -26,8 +26,8 @@ const projects = props => (
       tags={["design", "javascript", "css", "logo", "branding"]}
       link="https://www.hmcole.com"
     >
-      Brand and website redesign. Website development for custom clothier H.M.
-      Cole.
+      Branding and website redesign. Website development for custom clothier
+      H.M. Cole.
     </Project>
   </article>
 );
