@@ -21,6 +21,14 @@ const projects = props => (
     >
       Track Hymn is a data driven hobby project.
     </Project>
+    <Project
+      title="H.M. Cole"
+      tags={["design", "javascript", "css", "logo", "branding"]}
+      link="https://www.hmcole.com"
+    >
+      Brand and website redesign. Website development for custom clothier H.M.
+      Cole.
+    </Project>
   </article>
 );
 
