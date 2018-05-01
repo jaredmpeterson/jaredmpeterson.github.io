@@ -27,16 +27,6 @@ const me = props => (
         Thursday nights, playing basketball whenever possible, and traveling
         with my wife.
       </p>
-      <p>
-        <a href="mailto:jared@peteyinc.com">Email</a> /{" "}
-        <a
-          href="https://www.linkedin.com/in/thejaredpeterson"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          LinkedIn
-        </a>
-      </p>
     </div>
   </article>
 );
