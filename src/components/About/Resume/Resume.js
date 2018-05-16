@@ -10,14 +10,30 @@ const resume = props => (
       company="Monumetric"
       start="2016"
       end="10/2017"
-      technologies={["MongoDB", "Python", "Django", "JavaScript", "PostgreSQL"]}
+      technologies={[
+        "Python",
+        "PostgreSQL",
+        "MongoDB",
+        "Django",
+        "JavaScript",
+        "Google Cloud Platform"
+      ]}
     >
       Developed automated BI solutions using Python 3, PostgreSQL, MongoDB,
-      Jupyter, and Google BigQuery to aggregate GBs of data from multiple
-      sources. Design and display daily insight and analysis of key business
-      metrics using web-based enterpirse dashboard tools and reports. Forecast
-      client and company performance using TensorFlow, Scikit-Learn and other ML
-      libraries.
+      Jupyter, and Google BigQuery to extract, transform, and load (ETL) GBs of
+      daily data from multiple internal and external sources. <br />
+      <br />
+      Designed and developed custom full-stack apps to deliver daily insight and
+      analysis of key business metrics in front-end dashboards built using
+      custom JavaScript, HTML/CSS, enterprise dashboard tools and open source
+      projects.
+      <br />
+      <br />
+      Forecast client and company performance using Pandas, NumPy, TensorFlow,
+      Scikit-Learn, Prophet and other Machine Learning tools.
+      <br />
+      <br />
+      Documented, tested, and reviewed code.
     </Experience>
     <Experience
       title="Junior Developer"
@@ -33,6 +49,14 @@ const resume = props => (
       company="INFINIT Consulting"
       start="2014"
       end="2016"
+      technologies={[
+        "JavaScript",
+        "HTML5/CSS3",
+        "Python",
+        "Excel",
+        "SQL",
+        "Google Analytics"
+      ]}
     >
       Redesigned website UI/UX increasing lead conversion 80%. Implemented
       development best practices including git, live/staging/dev environments.
