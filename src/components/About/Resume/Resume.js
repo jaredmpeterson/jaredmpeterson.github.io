@@ -6,7 +6,7 @@ const resume = props => (
   <article className="Resume">
     <h4 id="resume">resume</h4>
     <Experience
-      title="Developer"
+      title="Python Developer/Data Analyst"
       company="Monumetric"
       start="2016"
       end="10/2017"
@@ -19,14 +19,14 @@ const resume = props => (
         "Google Cloud Platform"
       ]}
     >
-      Developed automated BI solutions using Python 3, PostgreSQL, MongoDB,
-      Jupyter, and Google BigQuery to extract, transform, and load (ETL) GBs of
-      daily data from multiple internal and external sources. <br />
+      Developed full-stack apps using Python, PostgreSQL, MongoDB to extract,
+      transform, and load (ETL) GBs of daily data from multiple internal and
+      external sources.
       <br />
-      Designed and developed custom full-stack apps to deliver daily insight and
-      analysis of key business metrics in front-end dashboards built using
-      custom JavaScript, HTML/CSS, enterprise dashboard tools and open source
-      projects.
+      <br />
+      Designed front-end dashboards to deliver daily insight and analysis of key
+      business metrics in built using custom JavaScript, HTML/CSS, enterprise
+      dashboard tools and open source projects.
       <br />
       <br />
       Forecast client and company performance using Pandas, NumPy, TensorFlow,
