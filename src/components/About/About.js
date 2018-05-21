@@ -9,7 +9,7 @@ import Contact from "./Contact/Contact";
 const about = props => (
   <div className="About">
     <Me />
-    <Contact />
+    {/* <Contact /> */}
     <Skills />
     <Projects />
     <Resume />
