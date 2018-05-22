@@ -15,6 +15,7 @@ const projects = props => (
       tags={["aws", "react", "sass", "react-bootstrap", "serverless"]}
       link="https://www.peteyinc.net"
       image={PIN}
+      github="notes-api"
     >
       Petey Inc. Notes (PIN) is a Serverless React App using AWS: Lambda,
       DynamoDB, Cognito, S3, and CloudFront.
