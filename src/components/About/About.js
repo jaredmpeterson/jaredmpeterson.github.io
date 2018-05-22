@@ -4,7 +4,7 @@ import Me from "./Me/Me";
 import Skills from "./Skills/Skills";
 import Resume from "./Resume/Resume";
 import Projects from "./Projects/Projects";
-import Contact from "./Contact/Contact";
+// import Contact from "./Contact/Contact";
 
 const about = props => (
   <div className="About">
