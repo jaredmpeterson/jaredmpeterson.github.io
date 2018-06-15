@@ -61,8 +61,8 @@ const resume = props => (
         'Node',
         'CSS3/LESS/SASS'
       ]}>
-      "Full-time immersive JavaScript program (bootcamp) with focus on MEAN
-      Stack."
+      Full-time immersive JavaScript program (bootcamp) with focus on MEAN
+      Stack.
     </Experience>
     <Experience
       title="Senior Marketing Manager"

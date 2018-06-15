@@ -5,7 +5,7 @@ import Project from './Project/Project';
 
 import PIN from '../../../assets/images/peteyincnotes.png';
 import HMC from '../../../assets/images/hmcole.png';
-import TH from '../../../assets/images/trackhymn.png';
+// import TH from '../../../assets/images/trackhymn.png';
 
 const projects = props => (
   <article className="Projects">
