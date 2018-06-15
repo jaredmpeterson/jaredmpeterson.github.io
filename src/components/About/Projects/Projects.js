@@ -36,9 +36,10 @@ const projects = props => (
       H.M. Cole.
     </Project>
     <Project
-      title="My Custom Clothier - H.M. Cole"
+      title="My Custom Clothier"
       tags={['design', 'javascript', 'css', 'angular', 'django']}
-      link="https://mycustomclothier.com/hmcole">
+      link="https://mycustomclothier.com/hmcole"
+      image={HMC}>
       Contractor on existing app, contributed to design, Angular frontend, and
       Django backend.
     </Project>
