@@ -6,9 +6,24 @@ const resume = props => (
   <article className="Resume">
     <h4 id="resume">resume</h4>
     <Experience
+      title="Full Stack Developer"
+      company="Olympus Media"
+      start="2016"
+      end="Current"
+      technologies={[
+        'JavaScript',
+        'HTML5',
+        'CSS3/LESS/SASS',
+        'MongoDB',
+        'Python',
+        'Django',
+        'AWS'
+      ]}
+    />
+    <Experience
       title="Software Engineer/Data Analyst"
       company="Monumetric"
-      start="2016"
+      start="10/2016"
       end="10/2017"
       technologies={[
         'Python',
