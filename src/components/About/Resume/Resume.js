@@ -1,23 +1,32 @@
-import React from 'react';
-import './Resume.css';
-import Experience from './Experience/Experience';
+import React from "react";
+import "./Resume.css";
+import Experience from "./Experience/Experience";
 
 const resume = props => (
   <article className="Resume">
     <h4 id="resume">resume</h4>
+    <div className="npm">
+      <div className="Info">
+        You can get an updated copy of my resume in your terminal by using:{" "}
+        <br />
+        <br />
+        <code>$ npx jmp-cli resume</code>
+      </div>
+    </div>
+
     <Experience
       title="Full Stack Developer"
       company="Olympus Media"
       start="2016"
       end="Current"
       technologies={[
-        'JavaScript',
-        'HTML5',
-        'CSS3/LESS/SASS',
-        'MongoDB',
-        'Python',
-        'Django',
-        'AWS'
+        "JavaScript",
+        "HTML5",
+        "CSS3/LESS/SASS",
+        "MongoDB",
+        "Python",
+        "Django",
+        "AWS"
       ]}
     />
     <Experience
@@ -26,13 +35,14 @@ const resume = props => (
       start="10/2016"
       end="10/2017"
       technologies={[
-        'Python',
-        'PostgreSQL',
-        'MongoDB',
-        'Django',
-        'JavaScript',
-        'Google Cloud Platform'
-      ]}>
+        "Python",
+        "PostgreSQL",
+        "MongoDB",
+        "Django",
+        "JavaScript",
+        "Google Cloud Platform"
+      ]}
+    >
       Developed full-stack apps using Python, PostgreSQL, MongoDB to extract,
       transform, and load (ETL) GBs of daily data from multiple internal and
       external sources.
@@ -54,15 +64,10 @@ const resume = props => (
       company="DevMountain"
       start="5/2016"
       end="8/2016"
-      technologies={[
-        'MongoDB',
-        'Express',
-        'Angular',
-        'Node',
-        'CSS3/LESS/SASS'
-      ]}>
-      Full-time immersive JavaScript program (bootcamp) with focus on MEAN
-      Stack.
+      technologies={["MongoDB", "Express", "Angular", "Node", "CSS3/LESS/SASS"]}
+    >
+      Full-time immersive Web Development program (12 week bootcamp) with focus
+      on MEAN Stack.
     </Experience>
     <Experience
       title="Senior Marketing Manager"
@@ -70,13 +75,14 @@ const resume = props => (
       start="2014"
       end="2016"
       technologies={[
-        'JavaScript',
-        'HTML5/CSS3',
-        'Python',
-        'Excel',
-        'SQL',
-        'Google Analytics'
-      ]}>
+        "JavaScript",
+        "HTML5/CSS3",
+        "Python",
+        "Excel",
+        "SQL",
+        "Google Analytics"
+      ]}
+    >
       Redesigned website UI/UX increasing lead conversion 80%. Implemented
       development best practices including git, live/staging/dev environments.
       Directed complete company rebrand, designed new identity including logo,
@@ -86,7 +92,15 @@ const resume = props => (
       title="Web Developer & Marketing Manager"
       company="Fenton Companies"
       start="2009"
-      end="2013">
+      end="2013"
+      technologies={[
+        "JavaScript",
+        "HTML5/CSS3",
+        "Wordpress",
+        "Excel",
+        "Google Analytics"
+      ]}
+    >
       Design, develop, and deploy websites for each portfolio company using
       HTML, CSS, JavaScript, and jQuery. Responsible for technology related
       projects for each portfolio company’s strategic business and
