@@ -2,11 +2,18 @@ import React from "react";
 import "./Me.css";
 
 import Quote from "../../Quote/Quote";
-
+function easter() {
+  console.log(
+    `%c
+    Hello.
+  `,
+    "font-family:monospace; color: pink;"
+  );
+}
 const me = props => (
   <article className="Me">
     <h4>jmp</h4>
-    <h1>Hello.</h1>
+    <h1 onClick={easter}>Hello.</h1>
     <div>
       <p>My name is Jared.</p>
       <p>
