@@ -15,7 +15,7 @@ const resume = props => (
     </div>
 
     <Experience
-      title="Full Stack Developer"
+      title="Software Engineer"
       company="Olympus Media"
       start="2016"
       end="Current"
@@ -28,7 +28,11 @@ const resume = props => (
         "Django",
         "AWS"
       ]}
-    />
+    >
+      Create custom software/websites for client companies. Work
+      cross-functionally with design, front-end and back-end teams to create
+      solutions for client needs.
+    </Experience>
     <Experience
       title="Software Engineer/Data Analyst"
       company="Monumetric"
