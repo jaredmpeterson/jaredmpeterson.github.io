@@ -4,8 +4,7 @@
   display: flex;
   flex-flow: row wrap;
   max-height: 400px;
-  align-items: center;
-  border: 1px solid rgba(60, 60, 60, 0.7);
+  align-items: center; // border: 1px solid rgba(60, 60, 60, 0.7);
   border-radius: 3px;
   box-shadow: 0.1rem 0.1rem 0.25rem rgba(255, 192, 203, 0.5);
   .Info {

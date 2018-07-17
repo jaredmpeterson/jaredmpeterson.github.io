@@ -1,15 +1,7 @@
 @import "./styles/mixins";
 @include font-face(Atlas, assets/fonts/AtlasGrotesk, null, null, woff2);
-@include font-face(
-  "Decima Mono Pro",
-  assets/fonts/decimamonopro,
-  null,
-  null,
-  woff2
-);
-
+@include font-face( "Decima Mono Pro", assets/fonts/decimamonopro, null, null, woff2);
 $contrast-color: #232323;
-
 a,
 abbr,
 acronym,
@@ -100,7 +92,9 @@ video {
   box-sizing: border-box;
   color: $contrast-color;
 }
+
 /* HTML5 display-role reset for older browsers */
+
 article,
 aside,
 details,
